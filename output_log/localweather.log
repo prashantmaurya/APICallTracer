@@ -1,0 +1,11 @@
+: Lcom/loopj/android/http/AsyncHttpClient;->getUrlWithQueryString();->Ljava/net/URL;-><init>
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage
+: Lcom/loopj/android/http/LogHandler;->logWithThrowable();->Landroid/util/Log;->v
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage
+: Lcom/loopj/android/http/AsyncHttpClient;->getUrlWithQueryString();->Ljava/net/URL;-><init>
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage
+: Lcom/loopj/android/http/LogHandler;->logWithThrowable();->Landroid/util/Log;->v
+: Lcom/loopj/android/http/AsyncHttpResponseHandler;->sendMessage();->Landroid/os/Handler;->sendMessage

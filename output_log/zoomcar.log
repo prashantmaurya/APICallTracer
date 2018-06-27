@@ -1,0 +1,5 @@
+: com/zoomcar/receiver/InstallReceiver;->onReceive();->Landroid/content/Intent;->getStringExtra
+: com/squareup/picasso/Picasso$a;->run();->Landroid/os/Handler;->obtainMessage
+: Lcom/squareup/picasso/Picasso$a;->run();->Landroid/os/Handler;->obtainMessage
+: Lcom/segment/analytics/g;->flush();->Landroid/os/Handler;->obtainMessage
+: Lcom/segment/analytics/g;->flush();->Landroid/os/Handler;->sendMessage

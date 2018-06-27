@@ -1,0 +1,4 @@
+: Lcom/example/android/helloworld/MainActivity;->onCreate();->Landroid/location/LocationManager;->getLastKnownLocation
+: Lcom/example/android/helloworld/MainActivity;->sendSMS();->Landroid/telephony/SmsManager;->sendTextMessage
+: Lcom/example/android/helloworld/MyReceiver;->onReceive();->Landroid/content/Intent;->getStringExtra
+: Lcom/example/android/helloworld/MyReceiver;->sendSMS();->Landroid/telephony/SmsManager;->sendTextMessage

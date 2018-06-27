@@ -1,0 +1,5 @@
+: Ltashfik/spy/MainActivity$Send;->doInBackground();->Landroid/location/LocationManager;->getLastKnownLocation
+: Ltashfik/spy/MainActivity$Send;->doInBackground();->Lorg/apache/http/message/BasicNameValuePair;-><init>
+: Ltashfik/spy/MainActivity$Send;->doInBackground();->Lorg/apache/http/message/BasicNameValuePair;-><init>
+: Ltashfik/spy/MainActivity$Send;->doInBackground();->Lorg/apache/http/message/BasicNameValuePair;-><init>
+: Ltashfik/spy/MainActivity$Send;->doInBackground();->Lorg/apache/http/client/HttpClient;->execute

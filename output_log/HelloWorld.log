@@ -1,0 +1,2 @@
+: Lcom.example.android.helloworld.MyReceiver;->onReceive();->Landroid/content/Intent;->getStringExtra
+: Lcom.example.android.helloworld.MyReceiver;->sendSMS();->Landroid/telephony/SmsManager;->sendTextMessage

@@ -1,0 +1,3 @@
+: Lcom/brassnet/smslocation/SMSLocation;->doEditMessage();->Landroid/location/Location;->getLongitude
+: Lcom/brassnet/smslocation/SMSLocation;->doEditMessage();->Landroid/location/Location;->getLatitude
+: Lcom/brassnet/smslocation/SMSLocation;->doSendMessage();->Landroid/telephony/SmsManager;->sendMultipartTextMessage
