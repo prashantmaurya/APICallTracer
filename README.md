@@ -7,14 +7,14 @@ For getting the list of sensitive APIs to instrument APK with refer Pscout, SuSi
 3. Python-2.7
 4. Keytool and Jarsigner
 ## Usage
-Create your signature using keytool for signing Android apps after instrumenting it.\\
-'''
-keytool -genkey -v -keystore my-releasekey.keystore -alias sec_analysis -keyalg RSA -validity 10000
-'''
-From the main directory run instrument.sh script on your terminal.
-'''
-./instrument.sh <apk-to-path>
-'''
+Create your signature using keytool for signing Android apps after instrumenting it.  
+'''  
+keytool -genkey -v -keystore my-releasekey.keystore -alias sec_analysis -keyalg RSA -validity 10000  
+'''  
+From the main directory run instrument.sh script on your terminal.  
+'''  
+./instrument.sh <apk-to-path>  
+'''  
 After instrumenting apk this script also signs the APK. It will prompt for your password to sign the APK. 
 The instrumented APK is present in '<apkname>/dist/' folder.
 For automated exploration of apps setup DroidBot. Script to run DroidBot and start Android Emulator is present in 'Scripts folder'.
