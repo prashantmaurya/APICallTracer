@@ -15,7 +15,7 @@ From the main directory run instrument.sh script on your terminal.
 ```./instrument.sh <apk-to-path> ```  
 
 After instrumenting apk this script also signs the APK. It will prompt for your password to sign the APK.   
-The instrumented APK is present in '<apkname>/dist/' folder.
+The instrumented APK is present in `<apk-name>/dist/` folder.
 For automated exploration of apps setup DroidBot. Script to run DroidBot and start Android Emulator is present in `Scripts folder`.  
 Install the app on device or emulator and run the app.  
 Use following command to log:  
