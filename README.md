@@ -1,4 +1,4 @@
-# ApiSeqLogger
+# ApiCallTracer
 A Tool for instrumentation of Android apps. We instrument the apps to record which API method gets executed along with the class and function name it was called in.
 
 Several tools exist which log API methods but does not log the class name and function name they were called in. The logs collected in this format helps in static analysis using SecFlowDroid+. SecFlowDroid+ deploys a hybrid approach utilizing both dyanamic analysis followed by static analysis techniques. The ApiSeqLogger is a part of SecFlowDroid+ which takes care of dyanamic analysis part.
