@@ -1,7 +1,7 @@
 # ApiCallTracer
 A Tool for instrumentation of Android apps. We instrument the apps to record which API method gets executed along with the class and function name it was called in.
 
-Several tools exist which log API methods but does not log the class name and function name they were called in. The logs collected in this format helps in static analysis using SecFlowDroid+. SecFlowDroid+ deploys a hybrid approach utilizing both dyanamic analysis followed by static analysis techniques. The ApiSeqLogger is a part of SecFlowDroid+ which takes care of dyanamic analysis part.
+Several tools exist which log API methods but does not log the class name and function name they were called in. The logs collected in this format helps in static analysis using SecFlowDroid*. SecFlowDroid* deploys a hybrid approach utilizing both dyanamic analysis followed by static analysis techniques. The ApiSeqLogger is a part of SecFlowDroid+ which takes care of dyanamic analysis part.
 For getting the list of sensitive APIs to instrument APK with refer Pscout, SuSi or axplorer.
 ## Prerequisite
 1. Unix-like OS
@@ -25,7 +25,7 @@ Use following command to log:
   adb logcat -s Prashant  
 ```
   
-To perform static analysis using SecFlowDroid+ we need to edit log using the editLog.py(removes time and first two lines which is not part of log).  
+To perform static analysis using SecFlowDroid* we need to edit log using the editLog.py(removes time and first two lines which is not part of log).  
 
 ```python edit_log.py <path-to-log>```  
 
