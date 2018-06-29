@@ -23,7 +23,7 @@ echo "instrumenting apk"
 python final.py $f_name
 apktool b $f_name
 dist="$f_name/dist/$f_name.apk"
-jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore ~/my-releasekey.keystore $dist sec_analysis
+jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore ~/my-releasekey.keystore $dist alias_name
 echo "##############################"
 echo "$f_name.apk successfully signed"
 cp -f $dist modified_apk/
