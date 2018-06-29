@@ -7,10 +7,11 @@ For getting the list of sensitive APIs to instrument APK with refer Pscout, SuSi
 1. Unix-like OS
 2. Apktool
 3. Python-2.7
-4. Keytool and Jarsigner
+4. Keytool and Jarsigner command should work
+5. Adb command should work
 ## Usage
 Create your signature using keytool for signing Android apps after instrumenting it.  
-```keytool -genkey -v -keystore my-releasekey.keystore -alias sec_analysis -keyalg RSA -validity 10000```  
+```keytool -genkey -v -keystore my-releasekey.keystore -alias alias_name -keyalg RSA -validity 10000```  
 From the main directory run instrument.sh script on your terminal.  
 ```./instrument.sh <apk-to-path> ```  
 
